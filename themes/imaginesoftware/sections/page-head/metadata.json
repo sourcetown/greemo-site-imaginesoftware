@@ -1,0 +1,73 @@
+{
+  "name": "page-head",
+  "displayName": "Page Head",
+  "description": "",
+  "component": "PageHeadSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "split",
+      "type": "string",
+      "label": "Split",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "crumbs",
+      "type": "string",
+      "label": "Crumbs",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "current",
+      "type": "string",
+      "label": "Current",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "lede",
+      "type": "string",
+      "label": "Lede",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "ledeField",
+      "type": "string",
+      "label": "Lede Field",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

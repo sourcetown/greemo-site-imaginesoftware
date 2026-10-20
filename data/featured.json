@@ -1,0 +1,16 @@
+{
+  "game": "epyx-collection",
+  "eyebrow": "Out now on Xbox",
+  "title": "Six Atari Lynx classics, *on Xbox* for the first time",
+  "lede": "California Games, ElectroCop, Blue Lightning, Gates of Zendocon, Todd’s Adventures in Slime World and Zarlor Mercenary.",
+  "image": "/media/Store-Page-Image-Xbox-Website.jpg",
+  "imageAlt": "The Epyx Collection: Handheld",
+  "primaryCta": {
+    "label": "Go to Xbox Store",
+    "path": "https://www.xbox.com/en-gb/games/store/the-epyx-collection-handheld/9p3rjf4xtv72"
+  },
+  "secondaryCta": {
+    "label": "About the collection",
+    "path": "/epyx-collection"
+  }
+}

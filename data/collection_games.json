@@ -1,0 +1,100 @@
+[
+  {
+    "key": "california-games-lynx",
+    "title": "California Games",
+    "collection": "epyx-collection",
+    "image": "",
+    "order": 1
+  },
+  {
+    "key": "electrocop",
+    "title": "ElectroCop",
+    "collection": "epyx-collection",
+    "image": "",
+    "order": 2
+  },
+  {
+    "key": "blue-lightning",
+    "title": "Blue Lightning",
+    "collection": "epyx-collection",
+    "image": "",
+    "order": 3
+  },
+  {
+    "key": "gates-of-zendocon",
+    "title": "Gates of Zendocon",
+    "collection": "epyx-collection",
+    "image": "",
+    "order": 4
+  },
+  {
+    "key": "todds-adventures-in-slime-world",
+    "title": "Todd’s Adventures in Slime World",
+    "collection": "epyx-collection",
+    "image": "",
+    "order": 5
+  },
+  {
+    "key": "zarlor-mercenary",
+    "title": "Zarlor Mercenary",
+    "collection": "epyx-collection",
+    "image": "",
+    "order": 6
+  },
+  {
+    "key": "summer-games",
+    "title": "Summer Games",
+    "collection": "epyx-sports",
+    "image": "/media/Summer.png",
+    "order": 7
+  },
+  {
+    "key": "summer-games-ii",
+    "title": "Summer Games II",
+    "collection": "epyx-sports",
+    "image": "/media/Summer2.png",
+    "order": 8
+  },
+  {
+    "key": "winter-games",
+    "title": "Winter Games",
+    "collection": "epyx-sports",
+    "image": "/media/Winter.png",
+    "order": 9
+  },
+  {
+    "key": "world-games",
+    "title": "World Games",
+    "collection": "epyx-sports",
+    "image": "/media/World.png",
+    "order": 10
+  },
+  {
+    "key": "championship-wrestling",
+    "title": "Championship Wrestling",
+    "collection": "epyx-sports",
+    "image": "/media/Wrestling.png",
+    "order": 11
+  },
+  {
+    "key": "california-games",
+    "title": "California Games",
+    "collection": "epyx-sports",
+    "image": "/media/Cali.png",
+    "order": 12
+  },
+  {
+    "key": "the-games-summer",
+    "title": "[PLACEHOLDER: title to confirm (artwork file Games_S.png)]",
+    "collection": "epyx-sports",
+    "image": "/media/Games_S.png",
+    "order": 13
+  },
+  {
+    "key": "the-games-winter",
+    "title": "[PLACEHOLDER: title to confirm (artwork file Games_W.png)]",
+    "collection": "epyx-sports",
+    "image": "/media/Games_W.png",
+    "order": 14
+  }
+]

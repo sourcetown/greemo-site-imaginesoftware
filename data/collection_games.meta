@@ -1,0 +1,63 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/collection_games.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "title",
+        "label": "Title",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "collection",
+        "label": "Collection",
+        "type": "reference",
+        "collection": "games"
+      },
+      {
+        "name": "image",
+        "label": "Artwork",
+        "type": "upload",
+        "accept": "image/*"
+      },
+      {
+        "name": "order",
+        "label": "Order",
+        "type": "number"
+      }
+    ],
+    "list": {
+      "columns": [
+        "title",
+        "collection",
+        "order"
+      ],
+      "sortable": [
+        "title",
+        "collection",
+        "order"
+      ],
+      "pagination": {
+        "pageSize": 20
+      },
+      "filters": [
+        {
+          "field": "collection",
+          "label": "Collection",
+          "type": "select"
+        }
+      ]
+    }
+  },
+  "description": "The games inside each collection (6 Handheld and 8 Sports titles)"
+}

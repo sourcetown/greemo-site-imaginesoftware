@@ -1,0 +1,72 @@
+{
+  "name": "game-tiles",
+  "displayName": "Game Tiles",
+  "description": "",
+  "component": "GameTilesSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "tint",
+      "type": "string",
+      "label": "Tint",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "link",
+      "type": "string",
+      "label": "Link",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "columns",
+      "type": "string",
+      "label": "Columns",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "items",
+      "type": "array",
+      "label": "Items",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "group",
+      "type": "string",
+      "label": "Group",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

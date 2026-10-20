@@ -1,0 +1,80 @@
+{
+  "title": "Imagine Software",
+  "description": "Imagine Software: professional game emulation for this generation’s platforms. The Epyx Collection: Handheld is out now on Xbox.",
+  "keywords": [
+    "Imagine Software",
+    "Epyx Collection",
+    "Atari Lynx",
+    "Xbox",
+    "Nintendo Switch",
+    "retro games"
+  ],
+  "theme": {
+    "name": "imaginesoftware",
+    "primaryColor": "#FFD23F",
+    "secondaryColor": "#FF3D7F",
+    "backgroundColor": "#ffffff",
+    "textColor": "#111827",
+    "fontFamily": "'IBM Plex Mono', ui-monospace, monospace",
+    "googleFont": "IBM Plex Mono",
+    "googleFontWeights": [
+      "400",
+      "500",
+      "600",
+      "700"
+    ],
+    "header": "components/Header.vue",
+    "footer": "components/Footer.vue"
+  },
+  "devServerPort": 7011,
+  "author": "",
+  "domain": "",
+  "favicon": "/media/favicons/favicon-32x32.png",
+  "favicons": {
+    "favicon16": "/media/favicons/favicon-16x16.png",
+    "favicon32": "/media/favicons/favicon-32x32.png",
+    "appleTouchIcon": "/media/favicons/apple-touch-icon.png",
+    "androidChrome192": "/media/favicons/android-chrome-192x192.png",
+    "androidChrome512": "/media/favicons/android-chrome-512x512.png",
+    "svg": "",
+    "default": "/media/favicons/favicon-32x32.png"
+  },
+  "social": [],
+  "deployment": {
+    "type": "git",
+    "local": {
+      "outputPath": "sites/imaginesoftware/dist"
+    },
+    "git": {
+      "enabled": true,
+      "repoUrl": "https://github.com/sourcetown/imaginesoftware.git",
+      "branch": "main",
+      "buildBranch": "gh-pages",
+      "remote": "origin",
+      "autoCommit": false,
+      "commitMessage": "Update {{filename}}"
+    },
+    "s3": {
+      "bucket": "greemo-imaginesoftware",
+      "region": "eu-west-2",
+      "accessKeyId": "",
+      "secretAccessKey": ""
+    },
+    "ssh": {
+      "host": "",
+      "username": "",
+      "port": 22,
+      "privateKey": "",
+      "password": "",
+      "remotePath": ""
+    },
+    "dataApi": {
+      "publicBase": ""
+    }
+  },
+  "media": {
+    "storage": "s3"
+  },
+  "variables": [],
+  "siteUrl": "https://imaginesoftware.uk"
+}

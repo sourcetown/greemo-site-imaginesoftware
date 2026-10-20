@@ -1,0 +1,71 @@
+{
+  "name": "downloads",
+  "displayName": "Downloads",
+  "description": "",
+  "component": "DownloadsSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "tint",
+      "type": "string",
+      "label": "Tint",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "intro",
+      "type": "string",
+      "label": "Intro",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "note",
+      "type": "string",
+      "label": "Note",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "notePlaceholder",
+      "type": "boolean",
+      "label": "Note Placeholder",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "items",
+      "type": "array",
+      "label": "Items",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "imaginesoftware",
+  "description": "Theme installed from /Users/janvalo/Projects/sourcetown/website-imaginesoftware",
+  "engine": "site",
+  "header": "components/Header.vue",
+  "footer": "components/Footer.vue",
+  "style": "theme.css"
+}

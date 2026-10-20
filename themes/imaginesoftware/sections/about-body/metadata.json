@@ -1,0 +1,48 @@
+{
+  "name": "about-body",
+  "displayName": "About Body",
+  "description": "",
+  "component": "AboutBodySection",
+  "category": "content",
+  "props": [
+    {
+      "name": "aboutMore",
+      "type": "string",
+      "label": "About More",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "aboutNote",
+      "type": "string",
+      "label": "About Note",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "aboutNoteFlag",
+      "type": "string",
+      "label": "About Note Flag",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "aboutImages",
+      "type": "array",
+      "label": "About Images",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

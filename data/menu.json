@@ -1,0 +1,153 @@
+{
+  "locations": {
+    "header": {
+      "name": "Header",
+      "description": "Main navigation",
+      "items": [
+        {
+          "id": "header-games",
+          "label": "Games",
+          "path": "/games",
+          "external": false
+        },
+        {
+          "id": "header-epyx",
+          "label": "Epyx Collection",
+          "path": "/epyx-collection",
+          "external": false
+        },
+        {
+          "id": "header-about",
+          "label": "About",
+          "path": "/about",
+          "external": false
+        },
+        {
+          "id": "header-contact",
+          "label": "Contact",
+          "path": "/about#contact",
+          "external": false
+        }
+      ]
+    },
+    "header-cta": {
+      "name": "Header Cta",
+      "description": "Button at the end of the header",
+      "items": [
+        {
+          "id": "cta-xbox",
+          "label": "Out now on Xbox",
+          "path": "https://www.xbox.com/en-gb/games/store/the-epyx-collection-handheld/9p3rjf4xtv72",
+          "external": true,
+          "target": "_blank"
+        }
+      ]
+    },
+    "footer": {
+      "name": "Footer",
+      "description": "Company column in the footer",
+      "items": [
+        {
+          "id": "footer-about",
+          "label": "About us",
+          "path": "/about",
+          "external": false
+        },
+        {
+          "id": "footer-contact",
+          "label": "Contact us",
+          "path": "/about#contact",
+          "external": false
+        },
+        {
+          "id": "footer-privacy",
+          "label": "Privacy policy (PDF)",
+          "path": "https://drive.google.com/file/d/1A5_WmFucwk_UBqpXIyXrZE4Fi8Svyp-e/view?usp=drive_link",
+          "external": true,
+          "target": "_blank"
+        }
+      ]
+    }
+  },
+  "locationOrder": [
+    "header",
+    "header-cta",
+    "footer"
+  ],
+  "menus": [
+    {
+      "id": "header",
+      "name": "Header",
+      "location": "header",
+      "description": "Main navigation",
+      "items": [
+        {
+          "id": "header-games",
+          "label": "Games",
+          "path": "/games",
+          "external": false
+        },
+        {
+          "id": "header-epyx",
+          "label": "Epyx Collection",
+          "path": "/epyx-collection",
+          "external": false
+        },
+        {
+          "id": "header-about",
+          "label": "About",
+          "path": "/about",
+          "external": false
+        },
+        {
+          "id": "header-contact",
+          "label": "Contact",
+          "path": "/about#contact",
+          "external": false
+        }
+      ]
+    },
+    {
+      "id": "header-cta",
+      "name": "Header Cta",
+      "location": "header-cta",
+      "description": "Button at the end of the header",
+      "items": [
+        {
+          "id": "cta-xbox",
+          "label": "Out now on Xbox",
+          "path": "https://www.xbox.com/en-gb/games/store/the-epyx-collection-handheld/9p3rjf4xtv72",
+          "external": true,
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "location": "footer",
+      "description": "Company column in the footer",
+      "items": [
+        {
+          "id": "footer-about",
+          "label": "About us",
+          "path": "/about",
+          "external": false
+        },
+        {
+          "id": "footer-contact",
+          "label": "Contact us",
+          "path": "/about#contact",
+          "external": false
+        },
+        {
+          "id": "footer-privacy",
+          "label": "Privacy policy (PDF)",
+          "path": "https://drive.google.com/file/d/1A5_WmFucwk_UBqpXIyXrZE4Fi8Svyp-e/view?usp=drive_link",
+          "external": true,
+          "target": "_blank"
+        }
+      ]
+    }
+  ]
+}

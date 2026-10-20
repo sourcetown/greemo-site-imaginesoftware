@@ -1,0 +1,11 @@
+{
+  "__dataset__": "games",
+  "group": "main",
+  "tint": true,
+  "eyebrow": "More games",
+  "title": "Retro classics, rebuilt for today’s consoles",
+  "link": {
+    "label": "All games",
+    "path": "/games"
+  }
+}

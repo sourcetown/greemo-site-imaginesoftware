@@ -1,0 +1,78 @@
+{
+  "kind": "singleton",
+  "source": {
+    "type": "json",
+    "path": "data/featured.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "game",
+        "label": "Featured game",
+        "type": "reference",
+        "collection": "games"
+      },
+      {
+        "name": "eyebrow",
+        "label": "Eyebrow",
+        "type": "textfield"
+      },
+      {
+        "name": "title",
+        "label": "Headline (*word* is highlighted)",
+        "type": "textfield"
+      },
+      {
+        "name": "lede",
+        "label": "Lede",
+        "type": "textarea"
+      },
+      {
+        "name": "image",
+        "label": "Hero image",
+        "type": "upload",
+        "accept": "image/*"
+      },
+      {
+        "name": "imageAlt",
+        "label": "Hero image alt text",
+        "type": "textfield"
+      },
+      {
+        "name": "primaryCta",
+        "label": "Main button",
+        "type": "object",
+        "fields": [
+          {
+            "name": "label",
+            "label": "Label",
+            "type": "textfield"
+          },
+          {
+            "name": "path",
+            "label": "Link",
+            "type": "link"
+          }
+        ]
+      },
+      {
+        "name": "secondaryCta",
+        "label": "Second button",
+        "type": "object",
+        "fields": [
+          {
+            "name": "label",
+            "label": "Label",
+            "type": "textfield"
+          },
+          {
+            "name": "path",
+            "label": "Link",
+            "type": "link"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "The home page hero: the featured release"
+}

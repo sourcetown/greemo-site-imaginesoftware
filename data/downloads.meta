@@ -1,0 +1,65 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/downloads.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "title",
+        "label": "Game",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "image",
+        "label": "Image",
+        "type": "upload",
+        "accept": "image/*"
+      },
+      {
+        "name": "imagePlaceholder",
+        "label": "Placeholder text when there is no image",
+        "type": "textfield"
+      },
+      {
+        "name": "boxTemplateUrl",
+        "label": "Box template PDF",
+        "type": "link"
+      },
+      {
+        "name": "manualUrl",
+        "label": "Manual PDF",
+        "type": "link"
+      },
+      {
+        "name": "order",
+        "label": "Order",
+        "type": "number"
+      }
+    ],
+    "list": {
+      "columns": [
+        "title",
+        "boxTemplateUrl",
+        "manualUrl",
+        "order"
+      ],
+      "sortable": [
+        "title",
+        "order"
+      ],
+      "pagination": {
+        "pageSize": 20
+      }
+    }
+  },
+  "description": "Printable box templates and instruction manuals (the You Found Us pages)"
+}

@@ -1,0 +1,14 @@
+{
+  "__dataset__": "company",
+  "split": true,
+  "crumbs": [
+    {
+      "label": "Home",
+      "path": "/"
+    }
+  ],
+  "current": "About",
+  "eyebrow": "About us",
+  "title": "Several decades in the games industry",
+  "ledeField": "intro"
+}

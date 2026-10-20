@@ -1,0 +1,56 @@
+{
+  "name": "game-intro",
+  "displayName": "Game Intro",
+  "description": "",
+  "component": "GameIntroSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "body",
+      "type": "string",
+      "label": "Body",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "stores",
+      "type": "array",
+      "label": "Stores",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "includedTitle",
+      "type": "string",
+      "label": "Included Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "string",
+      "label": "Data",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "key",
+      "type": "string",
+      "label": "Key",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "__dataset__": "games",
+  "key": "epyx-collection",
+  "crumbs": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Games",
+      "path": "/games"
+    }
+  ]
+}

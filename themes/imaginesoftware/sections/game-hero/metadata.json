@@ -1,0 +1,71 @@
+{
+  "name": "game-hero",
+  "displayName": "Game Hero",
+  "description": "",
+  "component": "GameHeroSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "crumbs",
+      "type": "string",
+      "label": "Crumbs",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "platforms",
+      "type": "string",
+      "label": "Platforms",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "lede",
+      "type": "string",
+      "label": "Lede",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "banner",
+      "type": "image",
+      "label": "Banner",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "image",
+      "type": "image",
+      "label": "Image",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

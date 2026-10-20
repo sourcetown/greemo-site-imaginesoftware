@@ -1,0 +1,48 @@
+{
+  "name": "game-gallery",
+  "displayName": "Game Gallery",
+  "description": "",
+  "component": "GameGallerySection",
+  "category": "content",
+  "props": [
+    {
+      "name": "tint",
+      "type": "string",
+      "label": "Tint",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "sectionEyebrow",
+      "type": "string",
+      "label": "Section Eyebrow",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "sectionTitle",
+      "type": "string",
+      "label": "Section Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "gallery",
+      "type": "array",
+      "label": "Gallery",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

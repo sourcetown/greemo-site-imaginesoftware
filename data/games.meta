@@ -1,0 +1,182 @@
+{
+  "kind": "list",
+  "source": {
+    "type": "json",
+    "path": "data/games.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key (used in links)",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "title",
+        "label": "Title",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "shortTitle",
+        "label": "Short title (footer)",
+        "type": "textfield"
+      },
+      {
+        "name": "order",
+        "label": "Order",
+        "type": "number"
+      },
+      {
+        "name": "homeGroup",
+        "label": "Home page placement",
+        "type": "select",
+        "options": [
+          "none",
+          "main",
+          "more"
+        ]
+      },
+      {
+        "name": "path",
+        "label": "Own page path (optional)",
+        "type": "textfield"
+      },
+      {
+        "name": "eyebrow",
+        "label": "Eyebrow",
+        "type": "textfield"
+      },
+      {
+        "name": "summary",
+        "label": "Card summary",
+        "type": "textarea"
+      },
+      {
+        "name": "lede",
+        "label": "Page lede",
+        "type": "textarea"
+      },
+      {
+        "name": "intro",
+        "label": "Section intro",
+        "type": "textarea"
+      },
+      {
+        "name": "body",
+        "label": "Page body",
+        "type": "wysiwyg"
+      },
+      {
+        "name": "image",
+        "label": "Card image (2:1)",
+        "type": "upload",
+        "accept": "image/*"
+      },
+      {
+        "name": "banner",
+        "label": "Page banner",
+        "type": "upload",
+        "accept": "image/*"
+      },
+      {
+        "name": "platforms",
+        "label": "Platforms",
+        "type": "select",
+        "multiple": true,
+        "options": [
+          "xbox",
+          "switch"
+        ]
+      },
+      {
+        "name": "stores",
+        "label": "Store links",
+        "type": "repeater",
+        "addButtonLabel": "+ Add store link",
+        "fields": [
+          {
+            "name": "label",
+            "label": "Button label",
+            "type": "textfield"
+          },
+          {
+            "name": "platform",
+            "label": "Platform",
+            "type": "select",
+            "options": [
+              "xbox",
+              "switch"
+            ]
+          },
+          {
+            "name": "url",
+            "label": "URL",
+            "type": "link"
+          }
+        ]
+      },
+      {
+        "name": "features",
+        "label": "Features",
+        "type": "repeater",
+        "addButtonLabel": "+ Add feature",
+        "fields": [
+          {
+            "name": "title",
+            "label": "Title",
+            "type": "textfield"
+          },
+          {
+            "name": "text",
+            "label": "Text",
+            "type": "textarea"
+          }
+        ]
+      },
+      {
+        "name": "gallery",
+        "label": "Screenshots",
+        "type": "repeater",
+        "addButtonLabel": "+ Add screenshot",
+        "fields": [
+          {
+            "name": "image",
+            "label": "Image",
+            "type": "upload",
+            "accept": "image/*"
+          },
+          {
+            "name": "alt",
+            "label": "Alt text",
+            "type": "textfield"
+          }
+        ]
+      }
+    ],
+    "list": {
+      "columns": [
+        "title",
+        "platforms",
+        "homeGroup",
+        "order"
+      ],
+      "sortable": [
+        "title",
+        "order"
+      ],
+      "pagination": {
+        "pageSize": 20
+      },
+      "filters": [
+        {
+          "field": "platforms",
+          "label": "Platform",
+          "type": "select"
+        }
+      ]
+    }
+  },
+  "description": "Games and collections. Shown on the home and Games pages and in the footer"
+}

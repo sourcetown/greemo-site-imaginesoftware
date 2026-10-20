@@ -1,0 +1,104 @@
+{
+  "name": "contact",
+  "displayName": "Contact",
+  "description": "",
+  "component": "ContactSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "tint",
+      "type": "string",
+      "label": "Tint",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "anchor",
+      "type": "string",
+      "label": "Anchor",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "address",
+      "type": "string",
+      "label": "Address",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "legalName",
+      "type": "string",
+      "label": "Legal Name",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "deliveryNote",
+      "type": "string",
+      "label": "Delivery Note",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "emails",
+      "type": "array",
+      "label": "Emails",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "formTitle",
+      "type": "string",
+      "label": "Form Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "formAction",
+      "type": "string",
+      "label": "Form Action",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "formNote",
+      "type": "string",
+      "label": "Form Note",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

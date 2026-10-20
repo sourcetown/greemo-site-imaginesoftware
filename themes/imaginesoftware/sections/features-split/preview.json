@@ -1,0 +1,11 @@
+{
+  "__dataset__": "company",
+  "tint": true,
+  "eyebrow": "What we do",
+  "title": "Professional game emulation for this generation’s platforms",
+  "body": "Imagine Software has been involved in the games industry for several decades. Our releases bring classic games to modern consoles with features players expect today.",
+  "cta": {
+    "label": "About us",
+    "path": "/about"
+  }
+}

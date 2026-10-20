@@ -1,0 +1,143 @@
+{
+  "kind": "singleton",
+  "source": {
+    "type": "json",
+    "path": "data/menu.json"
+  },
+  "schema": {
+    "preset": "menus",
+    "layout": "grid",
+    "fields": [
+      {
+        "name": "menus",
+        "label": "Menus",
+        "type": "repeater",
+        "description": "Navigation menus",
+        "width": 12,
+        "addButtonLabel": "+ Add Menu",
+        "layout": "flex",
+        "fields": [
+          {
+            "name": "id",
+            "label": "Menu ID",
+            "type": "textfield",
+            "required": true,
+            "width": 4
+          },
+          {
+            "name": "name",
+            "label": "Menu Name",
+            "type": "textfield",
+            "required": true,
+            "width": 4
+          },
+          {
+            "name": "location",
+            "label": "Location",
+            "type": "textfield",
+            "width": 4
+          },
+          {
+            "name": "items",
+            "label": "Menu Items",
+            "type": "repeater",
+            "width": 12,
+            "addButtonLabel": "+ Add Menu Item",
+            "layout": "flex",
+            "fields": [
+              {
+                "name": "label",
+                "label": "Label",
+                "type": "textfield",
+                "required": true,
+                "width": 4
+              },
+              {
+                "name": "path",
+                "label": "Path",
+                "type": "textfield",
+                "required": true,
+                "width": 4
+              },
+              {
+                "name": "external",
+                "label": "External Link",
+                "type": "toggle",
+                "width": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Header, header button and footer menus",
+  "type": "menu",
+  "formSchema": {
+    "preset": "menus",
+    "layout": "grid",
+    "fields": [
+      {
+        "name": "menus",
+        "label": "Menus",
+        "type": "repeater",
+        "description": "Navigation menus",
+        "width": 12,
+        "addButtonLabel": "+ Add Menu",
+        "layout": "flex",
+        "fields": [
+          {
+            "name": "id",
+            "label": "Menu ID",
+            "type": "textfield",
+            "required": true,
+            "width": 4
+          },
+          {
+            "name": "name",
+            "label": "Menu Name",
+            "type": "textfield",
+            "required": true,
+            "width": 4
+          },
+          {
+            "name": "location",
+            "label": "Location",
+            "type": "textfield",
+            "width": 4
+          },
+          {
+            "name": "items",
+            "label": "Menu Items",
+            "type": "repeater",
+            "width": 12,
+            "addButtonLabel": "+ Add Menu Item",
+            "layout": "flex",
+            "fields": [
+              {
+                "name": "label",
+                "label": "Label",
+                "type": "textfield",
+                "required": true,
+                "width": 4
+              },
+              {
+                "name": "path",
+                "label": "Path",
+                "type": "textfield",
+                "required": true,
+                "width": 4
+              },
+              {
+                "name": "external",
+                "label": "External Link",
+                "type": "toggle",
+                "width": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

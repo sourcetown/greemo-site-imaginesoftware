@@ -1,0 +1,48 @@
+{
+  "name": "game-features",
+  "displayName": "Game Features",
+  "description": "",
+  "component": "GameFeaturesSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "tint",
+      "type": "string",
+      "label": "Tint",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "sectionEyebrow",
+      "type": "string",
+      "label": "Section Eyebrow",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "sectionTitle",
+      "type": "string",
+      "label": "Section Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "features",
+      "type": "array",
+      "label": "Features",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

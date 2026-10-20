@@ -1,0 +1,80 @@
+{
+  "name": "featured-hero",
+  "displayName": "Featured Hero",
+  "description": "",
+  "component": "FeaturedHeroSection",
+  "category": "content",
+  "props": [
+    {
+      "name": "image",
+      "type": "image",
+      "label": "Image",
+      "description": "",
+      "required": false
+    },
+    {
+      "name": "imageAlt",
+      "type": "string",
+      "label": "Image Alt",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "eyebrow",
+      "type": "string",
+      "label": "Eyebrow",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "label": "Title",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "lede",
+      "type": "string",
+      "label": "Lede",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "primaryCta",
+      "type": "string",
+      "label": "Primary Cta",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "secondaryCta",
+      "type": "string",
+      "label": "Secondary Cta",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "game",
+      "type": "string",
+      "label": "Game",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "data",
+      "type": "dataset",
+      "label": "Data",
+      "description": "Dataset object. Direct props override matching fields.",
+      "required": false,
+      "datasetType": "object"
+    }
+  ]
+}

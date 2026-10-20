@@ -1,0 +1,199 @@
+{
+  "kind": "singleton",
+  "source": {
+    "type": "json",
+    "path": "data/company.json"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "legalName",
+        "label": "Name",
+        "type": "textfield",
+        "required": true
+      },
+      {
+        "name": "shortName",
+        "label": "Short name",
+        "type": "textfield"
+      },
+      {
+        "name": "logo",
+        "label": "Logo",
+        "type": "upload",
+        "accept": "image/*"
+      },
+      {
+        "name": "tagline",
+        "label": "Tagline",
+        "type": "textfield"
+      },
+      {
+        "name": "description",
+        "label": "Description (footer and SEO)",
+        "type": "textarea"
+      },
+      {
+        "name": "intro",
+        "label": "Intro (About lede)",
+        "type": "textarea"
+      },
+      {
+        "name": "aboutMore",
+        "label": "Longer About copy",
+        "type": "wysiwyg"
+      },
+      {
+        "name": "aboutNote",
+        "label": "About side note",
+        "type": "textarea"
+      },
+      {
+        "name": "aboutNoteFlag",
+        "label": "About side note flag",
+        "type": "textfield"
+      },
+      {
+        "name": "aboutImages",
+        "label": "About images",
+        "type": "repeater",
+        "addButtonLabel": "+ Add image",
+        "fields": [
+          {
+            "name": "image",
+            "label": "Image",
+            "type": "upload",
+            "accept": "image/*"
+          },
+          {
+            "name": "alt",
+            "label": "Alt text",
+            "type": "textfield"
+          }
+        ]
+      },
+      {
+        "name": "features",
+        "label": "What we do features",
+        "type": "repeater",
+        "addButtonLabel": "+ Add feature",
+        "fields": [
+          {
+            "name": "title",
+            "label": "Title",
+            "type": "textfield"
+          },
+          {
+            "name": "text",
+            "label": "Text",
+            "type": "textarea"
+          }
+        ]
+      },
+      {
+        "name": "address",
+        "label": "Postal address",
+        "type": "object",
+        "fields": [
+          {
+            "name": "line1",
+            "label": "Line 1",
+            "type": "textfield"
+          },
+          {
+            "name": "line2",
+            "label": "Line 2",
+            "type": "textfield"
+          },
+          {
+            "name": "town",
+            "label": "Town",
+            "type": "textfield"
+          },
+          {
+            "name": "county",
+            "label": "County",
+            "type": "textfield"
+          },
+          {
+            "name": "postcode",
+            "label": "Postcode",
+            "type": "textfield"
+          }
+        ]
+      },
+      {
+        "name": "deliveryNote",
+        "label": "Parcel delivery note",
+        "type": "textarea"
+      },
+      {
+        "name": "emails",
+        "label": "Email addresses",
+        "type": "repeater",
+        "addButtonLabel": "+ Add email",
+        "fields": [
+          {
+            "name": "label",
+            "label": "Label",
+            "type": "textfield"
+          },
+          {
+            "name": "address",
+            "label": "Address",
+            "type": "textfield"
+          },
+          {
+            "name": "note",
+            "label": "Note",
+            "type": "textarea"
+          }
+        ]
+      },
+      {
+        "name": "social",
+        "label": "Social links",
+        "type": "repeater",
+        "addButtonLabel": "+ Add link",
+        "fields": [
+          {
+            "name": "label",
+            "label": "Label",
+            "type": "textfield"
+          },
+          {
+            "name": "url",
+            "label": "URL",
+            "type": "link"
+          }
+        ]
+      },
+      {
+        "name": "socialNote",
+        "label": "Note under social links",
+        "type": "textfield"
+      },
+      {
+        "name": "trademarks",
+        "label": "Trademark line",
+        "type": "textarea"
+      },
+      {
+        "name": "registration",
+        "label": "Registration line",
+        "type": "textarea"
+      },
+      {
+        "name": "formAction",
+        "label": "Contact form endpoint",
+        "type": "textfield"
+      },
+      {
+        "name": "formNote",
+        "label": "Contact form note",
+        "type": "textarea"
+      }
+    ]
+  },
+  "description": "Company details, About copy, contact details and social links"
+}
