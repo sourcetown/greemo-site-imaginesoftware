@@ -1,6 +1,6 @@
 {
   "title": "Imagine Software",
-  "description": "Imagine Software: professional game emulation for this generation’s platforms. The Epyx Collection: Handheld is out now on Xbox.",
+  "description": "Imagine Software: professional game emulation for this generation\u2019s platforms. The Epyx Collection: Handheld is out now on Xbox.",
   "keywords": [
     "Imagine Software",
     "Epyx Collection",
@@ -47,7 +47,7 @@
     },
     "git": {
       "enabled": true,
-      "repoUrl": "https://github.com/sourcetown/imaginesoftware.git",
+      "repoUrl": "https://github.com/sourcetown/greemo-site-imaginesoftware.git",
       "branch": "main",
       "buildBranch": "gh-pages",
       "remote": "origin",
