@@ -1,0 +1,56 @@
+[
+  {
+    "key": "california-games",
+    "title": "California Games",
+    "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/Cali-sq.png",
+    "imagePlaceholder": "",
+    "boxTemplateUrl": "https://drive.google.com/file/d/1RcVV_XyD_M2GYkVVoxJYjjgdpkV1Dxu8/view?usp=drive_link",
+    "manualUrl": "https://drive.google.com/file/d/1sgmpl6u6sn0rla2xijrH8-SOguvHdvNu/view?usp=drive_link",
+    "order": 1
+  },
+  {
+    "key": "zarlor-mercenary",
+    "title": "Zarlor Mercenary",
+    "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/Zarlor.png",
+    "imagePlaceholder": "",
+    "boxTemplateUrl": "https://drive.google.com/file/d/1Fks15_XRbRENWnKQ_325vGbfoGiuD3Q_/view?usp=drive_link",
+    "manualUrl": "https://drive.google.com/file/d/1h6Keh3BDY6za91-hHULBLeAmJJxHTbiW/view?usp=drive_link",
+    "order": 2
+  },
+  {
+    "key": "gates-of-zendocon",
+    "title": "Gates of Zendocon",
+    "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/Gates.png",
+    "imagePlaceholder": "",
+    "boxTemplateUrl": "https://drive.google.com/file/d/1AIKSBP6-RVCE7nWRKFU8yENN5d8WIdOS/view?usp=drive_link",
+    "manualUrl": "https://drive.google.com/file/d/1MjhZFX8AEi06tHmJs7DOgERR9616-SE9/view?usp=drive_link",
+    "order": 3
+  },
+  {
+    "key": "electrocop",
+    "title": "ElectroCop",
+    "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/Electro.png",
+    "imagePlaceholder": "",
+    "boxTemplateUrl": "https://drive.google.com/file/d/1Jis1x7Nsdf3M4dB3mnAv_Q_uozTznOOm/view?usp=drive_link",
+    "manualUrl": "https://drive.google.com/file/d/1bh5X-ynR1E8FQH_nUThYEsXckDrpc6vQ/view?usp=drive_link",
+    "order": 4
+  },
+  {
+    "key": "todds-adventures-in-slime-world",
+    "title": "Todd’s Adventures in Slime World",
+    "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/Todd.png",
+    "imagePlaceholder": "",
+    "boxTemplateUrl": "https://drive.google.com/file/d/10G4N1Zvp9DbzfwLcxMZcNs_VKxpDZMQ8/view?usp=drive_link",
+    "manualUrl": "https://drive.google.com/file/d/1nIVRM7GDZhW0VovCE36D-wKlrX4fjjAg/view?usp=drive_link",
+    "order": 5
+  },
+  {
+    "key": "blue-lightning",
+    "title": "Blue Lightning",
+    "image": "",
+    "imagePlaceholder": "[PLACEHOLDER: Blue Lightning image]",
+    "boxTemplateUrl": "https://drive.google.com/file/d/1mDAJRviqzuVJt3WKyL5-q4KjdsZKyuBO/view?usp=drive_link",
+    "manualUrl": "https://drive.google.com/file/d/1tIIOlmdqxtITuyf6neVZdOzilzYuyTTK/view?usp=drive_link",
+    "order": 6
+  }
+]

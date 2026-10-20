@@ -1,0 +1,68 @@
+{
+  "legalName": "Imagine Software",
+  "shortName": "Imagine",
+  "logo": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/Imagine-Jodie.png",
+  "tagline": "Professional game emulation for this generation’s platforms.",
+  "description": "Professional game emulation for this generation’s platforms.",
+  "intro": "Imagine Software has been involved in the games industry for several decades and is the number one choice for companies needing professional game emulation for this generation’s platforms.",
+  "aboutMore": "[PLACEHOLDER: longer about copy: history, team, what services Imagine offers to other companies]",
+  "aboutNote": "Andrews UK describes Imagine Software as a separate standalone sister company for new current-gen game development (andrewsuk.com/games-distribution).",
+  "aboutNoteFlag": "[PLACEHOLDER: confirm whether to mention this here]",
+  "aboutImages": [
+    {
+      "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/CC-icon.png",
+      "alt": "Chip’s Challenge"
+    },
+    {
+      "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/1x1.jpg",
+      "alt": "Hidden Gems: Volume One"
+    }
+  ],
+  "features": [
+    {
+      "title": "Display filters",
+      "text": "CRT and LCD filters, plus scaling"
+    },
+    {
+      "title": "Rewind",
+      "text": "Rewind live gameplay at the push of a button"
+    },
+    {
+      "title": "Suspend points",
+      "text": "Save and restore at any point"
+    },
+    {
+      "title": "Manuals and boxes",
+      "text": "Interactive instruction manuals and 3D game boxes"
+    }
+  ],
+  "address": {
+    "line1": "West Wing Studios, Unit 166",
+    "line2": "The Mall",
+    "town": "Luton",
+    "county": "Bedfordshire",
+    "postcode": "LU1 2TL"
+  },
+  "deliveryNote": "Delivering parcels? Try this postcode on your sat nav, as it is 20ft from our door: Lloyds Bank, 60 George St, Luton, LU1 2BB.",
+  "emails": [
+    {
+      "label": "Email",
+      "address": "[PLACEHOLDER: contact email (the live page has a form only)]"
+    }
+  ],
+  "social": [
+    {
+      "label": "Facebook",
+      "url": "[PLACEHOLDER: Facebook URL]"
+    },
+    {
+      "label": "YouTube",
+      "url": "[PLACEHOLDER: YouTube URL]"
+    }
+  ],
+  "socialNote": "The live icons have no links.",
+  "trademarks": "Xbox and Nintendo Switch are trademarks of their respective owners.",
+  "registration": "[PLACEHOLDER: company name and number, if wanted]",
+  "formAction": "",
+  "formNote": "[PLACEHOLDER: form backend (live site uses a WordPress form plugin)]"
+}

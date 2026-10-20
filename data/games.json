@@ -1,0 +1,137 @@
+[
+  {
+    "key": "epyx-collection",
+    "order": 1,
+    "title": "The Epyx Collection: Handheld",
+    "shortTitle": "The Epyx Collection: Handheld",
+    "homeGroup": "none",
+    "path": "/epyx-collection",
+    "eyebrow": "Atari Lynx classics",
+    "summary": "A collection of six classic Atari Lynx games, out now on Xbox, and on Nintendo Switch.",
+    "lede": "A collection of six classic Atari Lynx games, now out on Xbox, packed with late 80s and early 90s nostalgia.",
+    "body": "Developed by Imagine Software, these retro classics are packed with late 80s and early 90s nostalgia and are just as fun and challenging to play today as they were when they were first released. Each of them is available on Xbox for the first time.",
+    "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/Store-Page-Image-Xbox-Website.jpg",
+    "banner": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/Epyx-Collection-Website-Image-copy-2-scaled.jpg",
+    "platforms": [
+      "xbox",
+      "switch"
+    ],
+    "stores": [
+      {
+        "label": "Go to Xbox Store",
+        "platform": "xbox",
+        "url": "https://www.xbox.com/en-gb/games/store/the-epyx-collection-handheld/9p3rjf4xtv72"
+      },
+      {
+        "label": "Go to Nintendo Store",
+        "platform": "switch",
+        "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/"
+      }
+    ],
+    "features": [
+      {
+        "title": "Rewind",
+        "text": "Rewind up to 5 seconds of live gameplay"
+      },
+      {
+        "title": "Suspend points",
+        "text": "Up to 5 suspend points per game"
+      },
+      {
+        "title": "CRT and LCD filters",
+        "text": "Play it the way you remember it"
+      },
+      {
+        "title": "Right and left hand",
+        "text": "Right-hand and left-hand controls"
+      },
+      {
+        "title": "3D box and cartridge",
+        "text": "Interactive 3D modelled game box and cartridge"
+      },
+      {
+        "title": "Manuals",
+        "text": "Interactive instruction manuals"
+      }
+    ],
+    "gallery": [
+      {
+        "image": "",
+        "alt": "[PLACEHOLDER: Epyx Collection: Handheld screenshot]"
+      },
+      {
+        "image": "",
+        "alt": "[PLACEHOLDER: Epyx Collection: Handheld screenshot]"
+      }
+    ]
+  },
+  {
+    "key": "epyx-sports",
+    "order": 2,
+    "title": "The Epyx Games Sports Collection",
+    "shortTitle": "Epyx Sports Collection",
+    "homeGroup": "main",
+    "eyebrow": "Out now on Nintendo Switch",
+    "summary": "Over 50 athletic and sporting events across eight of Epyx’s retro classics, including the best-seller California Games.",
+    "intro": "In the 1980s, the gold-medal-winning name for sports games on the C64 was Epyx.",
+    "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/2x1.jpg",
+    "platforms": [
+      "switch"
+    ],
+    "stores": [
+      {
+        "label": "Go to Nintendo Store",
+        "platform": "switch",
+        "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/"
+      }
+    ]
+  },
+  {
+    "key": "epyx-rogue",
+    "order": 3,
+    "title": "Epyx Rogue",
+    "shortTitle": "Epyx Rogue",
+    "homeGroup": "main",
+    "summary": "Explore the Dungeons of Doom in search of the Amulet of Yendor. Originally released in 1980.",
+    "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/Hero-Banner-copy.jpg",
+    "platforms": [
+      "switch"
+    ]
+  },
+  {
+    "key": "chips-challenge",
+    "order": 4,
+    "title": "Chip’s Challenge",
+    "shortTitle": "Chip’s Challenge",
+    "homeGroup": "main",
+    "summary": "The 1989 classic returns with over 140 levels to put your mind (and your fingers) to the test.",
+    "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/ChipsChallenge.png",
+    "platforms": [
+      "switch"
+    ]
+  },
+  {
+    "key": "hidden-gems-volume-one",
+    "order": 5,
+    "title": "Hidden Gems: Volume One",
+    "shortTitle": "Hidden Gems: Volume One",
+    "homeGroup": "more",
+    "summary": "Four classic Commodore 64 games: N.O.M.A.D., Gilligan’s Gold, Mutant Monty and Horace Goes Skiing.",
+    "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/HiddenGemsV1-002.png",
+    "platforms": [
+      "switch"
+    ]
+  },
+  {
+    "key": "monty-mole-collection",
+    "order": 6,
+    "title": "The Monty Mole Collection",
+    "shortTitle": "The Monty Mole Collection",
+    "homeGroup": "more",
+    "summary": "Wanted! Monty Mole, Monty on the Run, Auf Wiedersehen Monty and Moley Christmas, plus bonus game Sam Stoat: Safebreaker.",
+    "image": "https://greemo-imaginesoftware.s3.eu-west-2.amazonaws.com/media/MontyCollectionV1.png",
+    "platforms": [
+      "switch"
+    ]
+  }
+]

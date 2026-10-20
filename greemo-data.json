@@ -1,0 +1,29 @@
+{
+  "dataDelivery": "static",
+  "collections": {
+    "games": {
+      "source": "json",
+      "url": "/data/games.json"
+    },
+    "downloads": {
+      "source": "json",
+      "url": "/data/downloads.json"
+    },
+    "company": {
+      "source": "json",
+      "url": "/data/company.json"
+    },
+    "collection_games": {
+      "source": "json",
+      "url": "/data/collection_games.json"
+    },
+    "menu": {
+      "source": "json",
+      "url": "/data/menu.json"
+    },
+    "featured": {
+      "source": "json",
+      "url": "/data/featured.json"
+    }
+  }
+}
