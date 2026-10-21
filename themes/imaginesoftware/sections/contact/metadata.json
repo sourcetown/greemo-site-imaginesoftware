@@ -65,8 +65,20 @@
       "name": "emails",
       "type": "array",
       "label": "Emails",
-      "description": "",
-      "required": false
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "address",
+          "type": "string",
+          "label": "Address"
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        }
+      ]
     },
     {
       "name": "formTitle",
@@ -88,6 +100,46 @@
       "name": "formNote",
       "type": "string",
       "label": "Form Note",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "ourAddress",
+      "type": "string",
+      "label": "Our address",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "firstName",
+      "type": "string",
+      "label": "First name",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "lastName",
+      "type": "string",
+      "label": "Last name",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "label": "Email",
+      "description": "",
+      "required": false,
+      "canLinkDataset": true
+    },
+    {
+      "name": "commentOrMessage",
+      "type": "string",
+      "label": "Comment or message",
       "description": "",
       "required": false,
       "canLinkDataset": true

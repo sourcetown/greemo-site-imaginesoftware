@@ -1,0 +1,11 @@
+{
+  "kind": "singleton",
+  "source": {
+    "type": "json",
+    "path": "./site.json"
+  },
+  "schema": {
+    "fields": []
+  },
+  "description": "Site name, URL and description."
+}

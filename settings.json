@@ -1,6 +1,6 @@
 {
   "title": "Imagine Software",
-  "description": "Imagine Software: professional game emulation for this generation\u2019s platforms. The Epyx Collection: Handheld is out now on Xbox.",
+  "description": "Imagine Software: professional game emulation for this generation’s platforms. The Epyx Collection: Handheld is out now on Xbox.",
   "keywords": [
     "Imagine Software",
     "Epyx Collection",
@@ -9,6 +9,19 @@
     "Nintendo Switch",
     "retro games"
   ],
+  "author": "",
+  "domain": "imaginesoftware.uk",
+  "siteUrl": "https://imaginesoftware.uk",
+  "favicon": "/media/favicons/favicon-32x32.png",
+  "favicons": {
+    "svg": "",
+    "default": "/media/favicons/favicon-32x32.png",
+    "appleTouchIcon": "/media/favicons/apple-touch-icon.png",
+    "androidChrome192": "/media/favicons/android-chrome-192x192.png",
+    "androidChrome512": "/media/favicons/android-chrome-512x512.png",
+    "favicon16": "/media/favicons/favicon-16x16.png",
+    "favicon32": "/media/favicons/favicon-32x32.png"
+  },
   "theme": {
     "name": "imaginesoftware",
     "primaryColor": "#FFD23F",
@@ -26,22 +39,15 @@
     "header": "components/Header.vue",
     "footer": "components/Footer.vue"
   },
-  "devServerPort": 7011,
-  "author": "",
-  "domain": "",
-  "favicon": "/media/favicons/favicon-32x32.png",
-  "favicons": {
-    "favicon16": "/media/favicons/favicon-16x16.png",
-    "favicon32": "/media/favicons/favicon-32x32.png",
-    "appleTouchIcon": "/media/favicons/apple-touch-icon.png",
-    "androidChrome192": "/media/favicons/android-chrome-192x192.png",
-    "androidChrome512": "/media/favicons/android-chrome-512x512.png",
-    "svg": "",
-    "default": "/media/favicons/favicon-32x32.png"
-  },
-  "social": [],
+  "social": [
+    {
+      "provider": "youtube",
+      "handle": ""
+    }
+  ],
   "deployment": {
     "type": "git",
+    "custom": false,
     "local": {
       "outputPath": "sites/imaginesoftware/dist"
     },
@@ -68,6 +74,9 @@
       "password": "",
       "remotePath": ""
     },
+    "cloudflare": {
+      "hostname": ""
+    },
     "dataApi": {
       "publicBase": ""
     }
@@ -76,5 +85,5 @@
     "storage": "s3"
   },
   "variables": [],
-  "siteUrl": "https://imaginesoftware.uk"
+  "devServerPort": 7011
 }

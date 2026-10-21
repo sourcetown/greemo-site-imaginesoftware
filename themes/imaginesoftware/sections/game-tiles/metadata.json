@@ -31,11 +31,23 @@
     },
     {
       "name": "link",
-      "type": "string",
+      "type": "object",
       "label": "Link",
       "description": "",
       "required": false,
-      "canLinkDataset": true
+      "canLinkDataset": true,
+      "fields": [
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "label": "Path"
+        }
+      ]
     },
     {
       "name": "columns",
@@ -49,8 +61,15 @@
       "name": "items",
       "type": "array",
       "label": "Items",
-      "description": "",
-      "required": false
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "key",
+          "type": "string",
+          "label": "Key"
+        }
+      ]
     },
     {
       "name": "group",

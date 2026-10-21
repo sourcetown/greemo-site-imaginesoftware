@@ -56,8 +56,40 @@
       "name": "items",
       "type": "array",
       "label": "Items",
-      "description": "",
-      "required": false
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "key",
+          "type": "string",
+          "label": "Key"
+        },
+        {
+          "name": "boxTemplateUrl",
+          "type": "string",
+          "label": "Box Template Url"
+        },
+        {
+          "name": "image",
+          "type": "image",
+          "label": "Image"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "label": "Title"
+        },
+        {
+          "name": "imagePlaceholder",
+          "type": "string",
+          "label": "Image Placeholder"
+        },
+        {
+          "name": "manualUrl",
+          "type": "string",
+          "label": "Manual Url"
+        }
+      ]
     },
     {
       "name": "data",

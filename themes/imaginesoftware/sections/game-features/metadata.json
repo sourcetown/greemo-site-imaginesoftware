@@ -33,8 +33,20 @@
       "name": "features",
       "type": "array",
       "label": "Features",
-      "description": "",
-      "required": false
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "label": "Title"
+        },
+        {
+          "name": "text",
+          "type": "long",
+          "label": "Text"
+        }
+      ]
     },
     {
       "name": "data",

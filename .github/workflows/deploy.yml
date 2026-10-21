@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   push:
-    branches: [main, gh-pages]
+    branches: [deploy]
   workflow_dispatch:
 
 jobs:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Publish dist to the deployments bucket
+      - name: Publish the deploy branch to the site bucket
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -21,12 +21,5 @@ jobs:
             echo "AWS deploy secrets are not on this repository yet."
             exit 0
           fi
-          if [ "${{ github.ref_name }}" = "gh-pages" ]; then
-            aws s3 sync . "s3://$BUCKET" --delete --exclude ".git/*" --exclude ".github/*"
-          elif [ -d dist ] && [ -n "$(ls -A dist 2>/dev/null)" ]; then
-            aws s3 sync dist "s3://$BUCKET" --delete
-          else
-            echo "This push has no site files to publish."
-            exit 0
-          fi
+          aws s3 sync . "s3://$BUCKET" --delete --exclude ".git/*" --exclude ".github/*"
           echo "Published to s3://$BUCKET"

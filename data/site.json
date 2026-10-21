@@ -1,0 +1,28 @@
+{
+  "siteUrl": "https://imaginesoftware.uk",
+  "siteName": "Imagine Software",
+  "siteDescription": "Imagine Software: professional game emulation for this generation’s platforms. The Epyx Collection: Handheld is out now on Xbox.",
+  "keywords": [
+    "Imagine Software",
+    "Epyx Collection",
+    "Atari Lynx",
+    "Xbox",
+    "Nintendo Switch",
+    "retro games"
+  ],
+  "theme": {
+    "name": "imaginesoftware",
+    "primaryColor": "#FFD23F",
+    "secondaryColor": "#FF3D7F",
+    "fontFamily": "'IBM Plex Mono', ui-monospace, monospace",
+    "googleFont": "IBM Plex Mono",
+    "googleFontWeights": [
+      "400",
+      "500",
+      "600",
+      "700"
+    ]
+  },
+  "title": "Imagine Software",
+  "description": "Imagine Software: professional game emulation for this generation’s platforms. The Epyx Collection: Handheld is out now on Xbox."
+}

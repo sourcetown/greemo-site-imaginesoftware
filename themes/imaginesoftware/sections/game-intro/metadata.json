@@ -17,8 +17,20 @@
       "name": "stores",
       "type": "array",
       "label": "Stores",
-      "description": "",
-      "required": false
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "url",
+          "type": "string",
+          "label": "Url"
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        }
+      ]
     },
     {
       "name": "includedTitle",

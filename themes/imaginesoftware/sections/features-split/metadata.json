@@ -39,18 +39,42 @@
     },
     {
       "name": "cta",
-      "type": "string",
+      "type": "object",
       "label": "Cta",
       "description": "",
       "required": false,
-      "canLinkDataset": true
+      "canLinkDataset": true,
+      "fields": [
+        {
+          "name": "label",
+          "type": "string",
+          "label": "Label"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "label": "Path"
+        }
+      ]
     },
     {
       "name": "features",
       "type": "array",
       "label": "Features",
-      "description": "",
-      "required": false
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "label": "Title"
+        },
+        {
+          "name": "text",
+          "type": "long",
+          "label": "Text"
+        }
+      ]
     },
     {
       "name": "data",

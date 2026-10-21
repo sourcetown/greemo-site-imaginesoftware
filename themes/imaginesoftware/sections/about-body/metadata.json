@@ -33,8 +33,20 @@
       "name": "aboutImages",
       "type": "array",
       "label": "About Images",
-      "description": "",
-      "required": false
+      "description": "Each item uses these fields. Add one to create another.",
+      "required": false,
+      "fields": [
+        {
+          "name": "image",
+          "type": "image",
+          "label": "Image"
+        },
+        {
+          "name": "alt",
+          "type": "string",
+          "label": "Alt"
+        }
+      ]
     },
     {
       "name": "data",
